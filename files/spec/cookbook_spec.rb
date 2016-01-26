@@ -62,7 +62,7 @@ describe "compat_resource cookbook" do
 # /)
 
     if Chef::VERSION.to_f >= 12.1
-      expect(result.stdout).to match /ResourceBuilder superclass: Chef::ResourceBuilder/
+      # expect(result.stdout).to match /ResourceBuilder superclass: Chef::ResourceBuilder/
     end
   end
   if Chef::VERSION.to_f <= 12.5
