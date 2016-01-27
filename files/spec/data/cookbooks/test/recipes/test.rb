@@ -39,4 +39,4 @@ future_super_resource 'lets you set x and y' do
 end
 
 ChefCompat::CopiedFromChef::Chef.log_deprecation "hi there"
-Chef::Log.info "ResourceBuilder superclass: #{ChefCompat::CopiedFromChef::Chef::ResourceBuilder.superclass}"
+#Chef::Log.info "ResourceBuilder superclass: #{ChefCompat::CopiedFromChef::Chef::ResourceBuilder.superclass}"
